@@ -11,3 +11,8 @@
 // let circleRadius = prompt('Придумайте та введіть радіус кола:');
 // alert(`Площа кола=${circleRadius*circleRadius*Math.PI}`)
 
+/*const dollar = 40.2;
+const euro = 42.5;
+
+let valuta = prompt('Введіть суму в доларах');
+alert(`Ваша сумма в євро: ${dollar/euro*100}`)*/
