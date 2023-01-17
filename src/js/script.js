@@ -44,8 +44,9 @@ alert(`Ваша сумма в євро: ${(valuta * dollar / euro).toFixed(2)} �
 
 let sumMoney = prompt('Введіть вашу суму грошей (грн)');
 let costOfChocolade = prompt('Введіть ціну однієї шоколадки');
-alert(`Кількість шоколадок, яку ви можете купити за ваші гроші: ${Math.floor(sumMoney / costOfChocolade)} шт.  
-Ваша решта: ${sumMoney-(costOfChocolade*sumMoney)} грн`);
+let numChocolate =  Math.floor(sumMoney / costOfChocolade);
+alert(`Кількість шоколадок, яку ви можете купити за ваші гроші: ${numChocolate} шт.  
+Ваша решта: ${sumMoney-(numChocolate*costOfChocolade)} грн`);
 
 
 /*Десяте*/
