@@ -15,4 +15,8 @@
 const euro = 42.5;
 
 let valuta = prompt('Введіть суму в доларах');
-alert(`Ваша сумма в євро: ${dollar/euro*100}`)*/
+alert(`Ваша сумма в євро: ${ valuta * dollar / euro} євро`)*/
+
+
+
+
